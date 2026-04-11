@@ -1,0 +1,141 @@
+.section {
+  padding: var(--section-padding);
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slide {
+  min-width: 100%;
+  padding: 0 20px;
+}
+
+.card {
+  background: var(--dark-card);
+  border: 1px solid var(--dark-border);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.quote {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  font-size: 4rem;
+  color: var(--primary);
+  opacity: 0.15;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+[dir="rtl"] .quote {
+  left: auto;
+  right: 24px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.star {
+  color: #FFD700;
+  font-size: 1.2rem;
+}
+
+.content {
+  font-size: 1.1rem;
+  color: var(--light);
+  line-height: 1.8;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.authorName {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.authorRole {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.navBtn {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.navBtn:hover {
+  background: var(--primary);
+  color: var(--black);
+  border-color: var(--primary);
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.dot.active {
+  background: var(--primary);
+  width: 24px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 28px 20px;
+  }
+
+  .content {
+    font-size: 1rem;
+  }
+}

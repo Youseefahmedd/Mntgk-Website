@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Mntgk — We Build Your Digital Presence",
+    "description": "Fast, affordable, and professional digital solutions for small businesses. Get online in days, not months."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "🚀 Your Digital Journey Starts Here",
+    "title": "Take Your Business",
+    "titleHighlight": "Online",
+    "subtitle": "We help small businesses build a complete digital presence — fast, simple, and affordable. No tech skills needed.",
+    "cta": "Get Started Today",
+    "ctaSecondary": "See Our Work",
+    "stat1Number": "50+",
+    "stat1Label": "Projects Delivered",
+    "stat2Number": "100+",
+    "stat2Label": "Happy Clients",
+    "stat3Number": "24/7",
+    "stat3Label": "Ongoing Support"
+  },
+  "services": {
+    "sectionTag": "What We Do",
+    "title": "Everything You Need to Go Online",
+    "subtitle": "From website design to getting found on Google — we handle it all so you can focus on your business.",
+    "viewAll": "View All Services",
+    "items": [
+      {
+        "title": "Website Design & Development",
+        "description": "Beautiful, fast, mobile-friendly websites that turn visitors into customers. Delivered in days, not months.",
+        "icon": "globe"
+      },
+      {
+        "title": "Mobile-Friendly Design",
+        "description": "Your website will look perfect on every device — phones, tablets, and desktops. Over 70% of visitors come from mobile.",
+        "icon": "smartphone"
+      },
+      {
+        "title": "SEO Optimization",
+        "description": "Get found on Google when customers search for your business. We optimize your site for maximum visibility.",
+        "icon": "search"
+      },
+      {
+        "title": "Google Maps Setup",
+        "description": "Show up on Google Maps so local customers can find you easily. We set up and optimize your business listing.",
+        "icon": "mapPin"
+      },
+      {
+        "title": "Domain & Hosting",
+        "description": "We handle the technical stuff — domain registration, hosting setup, and SSL certificates. You just approve.",
+        "icon": "server"
+      },
+      {
+        "title": "Ongoing Support",
+        "description": "We don't disappear after launch. Get reliable ongoing support and maintenance to keep your site running smoothly.",
+        "icon": "headphones"
+      }
+    ],
+    "requestQuote": "Request a Quote",
+    "requestQuoteDesc": "Not sure what you need? Tell us about your business and we'll suggest the perfect package."
+  },
+  "howItWorks": {
+    "sectionTag": "How It Works",
+    "title": "From Zero to Online in 3 Simple Steps",
+    "subtitle": "We've made the process incredibly simple. No technical knowledge required.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Tell Us About Your Business",
+        "description": "Share your business details, preferences, and goals. A quick call or message is all it takes."
+      },
+      {
+        "number": "02",
+        "title": "We Build Your Digital Presence",
+        "description": "Our team designs and develops your website, sets up your online profiles, and optimizes everything."
+      },
+      {
+        "number": "03",
+        "title": "Go Live & Grow",
+        "description": "Your business goes online and starts attracting new customers. We provide ongoing support as you grow."
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTag": "Our Work",
+    "title": "Businesses We've Transformed",
+    "subtitle": "See how we've helped real businesses build their digital presence.",
+    "viewProject": "View Project",
+    "viewAll": "View All Projects",
+    "categories": {
+      "all": "All",
+      "restaurant": "Restaurants",
+      "salon": "Salons",
+      "retail": "Retail",
+      "services": "Services"
+    }
+  },
+  "testimonials": {
+    "sectionTag": "What Clients Say",
+    "title": "Trusted by Business Owners",
+    "subtitle": "Don't just take our word for it — hear from the businesses we've helped go digital."
+  },
+  "cta": {
+    "title": "Ready to Take Your Business Online?",
+    "subtitle": "Join hundreds of businesses who've already made the leap. Get started today — it's easier than you think.",
+    "button": "Start Your Digital Journey",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "about": {
+    "sectionTag": "About Mntgk",
+    "title": "We Exist to Help Small Businesses Succeed Online",
+    "story": "We started Mntgk because we saw too many great small businesses missing out on customers simply because they had no online presence. In today's world, if you're not online, you're invisible.",
+    "storyP2": "Our mission is simple: make it fast, easy, and affordable for any business to get a professional digital presence. No complicated tech, no huge budgets, no waiting months.",
+    "mission": "Our Mission",
+    "missionText": "To empower every small business with a professional digital presence that drives real results.",
+    "vision": "Our Vision",
+    "visionText": "A world where no great business goes unnoticed because they lack an online presence.",
+    "values": [
+      {
+        "title": "Simplicity",
+        "description": "We handle the complexity so you don't have to.",
+        "icon": "zap"
+      },
+      {
+        "title": "Speed",
+        "description": "Get online in days, not months. Time is money.",
+        "icon": "clock"
+      },
+      {
+        "title": "Trust",
+        "description": "Transparent pricing, reliable support, honest advice.",
+        "icon": "shield"
+      },
+      {
+        "title": "Results",
+        "description": "We focus on what matters — more customers for your business.",
+        "icon": "trendingUp"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTag": "Get in Touch",
+    "title": "Let's Build Your Digital Presence",
+    "subtitle": "Ready to get started? Send us a message or chat with us on WhatsApp. We respond fast.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "service": "Service You Need",
+      "serviceOptions": ["Website Design", "SEO Optimization", "Google Maps Setup", "Full Digital Package", "Other"],
+      "message": "Tell us about your business",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll get back to you within 24 hours.",
+      "error": "Something went wrong. Please try again or contact us on WhatsApp."
+    },
+    "info": {
+      "whatsapp": "WhatsApp",
+      "whatsappNumber": "+966535355628",
+      "email": "Email",
+      "emailAddress": "hello@mntgk.com",
+      "response": "We typically respond within 2 hours"
+    }
+  },
+  "faq": {
+    "sectionTag": "FAQ",
+    "title": "Common Questions",
+    "items": [
+      {
+        "question": "How long does it take to build a website?",
+        "answer": "Most websites are ready within 5-7 business days. Simple landing pages can be done in 2-3 days."
+      },
+      {
+        "question": "How much does a website cost?",
+        "answer": "Our pricing depends on your needs. Contact us for a free quote — we have packages for every budget."
+      },
+      {
+        "question": "Do I need any technical knowledge?",
+        "answer": "Absolutely not! We handle everything from start to finish. You just tell us about your business and approve the design."
+      },
+      {
+        "question": "Will my website work on mobile phones?",
+        "answer": "Yes! All our websites are mobile-first and look great on every device — phones, tablets, and desktops."
+      },
+      {
+        "question": "Do you provide ongoing support?",
+        "answer": "Yes, we offer ongoing maintenance and support plans. We don't just build and disappear — we're here for the long run."
+      },
+      {
+        "question": "Can you help me show up on Google?",
+        "answer": "Absolutely! We include basic SEO optimization and can set up your Google Business profile and Maps listing."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Helping small businesses build their digital presence — fast, simple, and affordable.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with ❤️ for small businesses"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "services": "Services",
+    "projects": "Projects",
+    "reviews": "Reviews",
+    "messages": "Messages",
+    "logout": "Logout",
+    "login": "Admin Login",
+    "password": "Password",
+    "loginBtn": "Login",
+    "add": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Are you sure?",
+    "noData": "No data yet",
+    "totalServices": "Total Services",
+    "totalProjects": "Total Projects",
+    "totalReviews": "Total Reviews",
+    "totalMessages": "Unread Messages",
+    "titleEn": "Title (English)",
+    "titleAr": "Title (Arabic)",
+    "descEn": "Description (English)",
+    "descAr": "Description (Arabic)",
+    "clientName": "Client Name",
+    "clientRole": "Client Role",
+    "contentEn": "Review (English)",
+    "contentAr": "Review (Arabic)",
+    "rating": "Rating",
+    "category": "Category",
+    "imageUrl": "Image URL",
+    "liveUrl": "Live URL",
+    "featured": "Featured",
+    "active": "Active",
+    "sortOrder": "Sort Order"
+  }
+}

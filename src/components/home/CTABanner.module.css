@@ -1,0 +1,73 @@
+.cta {
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaBg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(8, 203, 0, 0.05), rgba(37, 57, 0, 0.1));
+}
+
+.ctaBgPattern {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(8, 203, 0, 0.08) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.ctaContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.ctaSubtitle {
+  font-size: 1.1rem;
+  color: var(--gray);
+  margin-bottom: 36px;
+  line-height: 1.8;
+}
+
+.ctaBtns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.whatsappBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  background: #25D366;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: var(--radius-md);
+  transition: all var(--transition);
+}
+
+.whatsappBtn:hover {
+  background: #20bd5a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+}
+
+@media (max-width: 768px) {
+  .cta {
+    padding: 60px 0;
+  }
+}
