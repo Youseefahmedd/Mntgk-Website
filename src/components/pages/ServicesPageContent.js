@@ -15,9 +15,20 @@ const iconMap = {
   headphones: Headphones,
 };
 
-export default function ServicesPageContent({ dict, lang }) {
+export default function ServicesPageContent({ dict, lang, dbServices }) {
   useScrollReveal();
   const [openFaq, setOpenFaq] = useState(null);
+
+  let services = [];
+  if (dbServices && dbServices.length > 0) {
+    services = dbServices.map(s => ({
+      title: lang === 'ar' ? s.title_ar : s.title_en,
+      description: lang === 'ar' ? s.description_ar : s.description_en,
+      icon: s.icon
+    }));
+  } else {
+    services = dict.services.items;
+  }
 
   return (
     <>
@@ -32,7 +43,7 @@ export default function ServicesPageContent({ dict, lang }) {
       <section>
         <div className="container">
           <div className={`${styles.servicesGrid} stagger-children`}>
-            {dict.services.items.map((service, i) => {
+            {services.map((service, i) => {
               const Icon = iconMap[service.icon] || Globe;
               return (
                 <div className={styles.serviceFullCard} key={i}>

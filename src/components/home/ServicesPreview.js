@@ -13,8 +13,17 @@ const iconMap = {
   headphones: Headphones,
 };
 
-export default function ServicesPreview({ dict, lang }) {
-  const services = dict.services.items.slice(0, 6);
+export default function ServicesPreview({ dict, lang, dbServices }) {
+  let services = [];
+  if (dbServices && dbServices.length > 0) {
+    services = dbServices.slice(0, 6).map(s => ({
+      title: lang === 'ar' ? s.title_ar : s.title_en,
+      description: lang === 'ar' ? s.description_ar : s.description_en,
+      icon: s.icon
+    }));
+  } else {
+    services = dict.services.items.slice(0, 6);
+  }
 
   return (
     <section className={styles.section} id="services-preview">
