@@ -14,14 +14,19 @@ export default async function HomePage({ params }) {
   const dict = await getDictionary(lang);
   
   let dbServices = [];
+  let dbReviews = [];
   try {
     const supabase = getSupabase();
     if (supabase) {
-      const { data } = await supabase.from('services').select('*').order('sort_order', { ascending: true }).eq('is_active', true);
-      if (data) dbServices = data;
+      const [servicesRes, reviewsRes] = await Promise.all([
+        supabase.from('services').select('*').order('sort_order', { ascending: true }).eq('is_active', true),
+        supabase.from('reviews').select('*').order('created_at', { ascending: false }).eq('is_active', true)
+      ]);
+      if (servicesRes.data) dbServices = servicesRes.data;
+      if (reviewsRes.data) dbReviews = reviewsRes.data;
     }
   } catch (e) {
-    console.error('Failed to fetch services:', e);
+    console.error('Failed to fetch data:', e);
   }
 
   return (
@@ -31,7 +36,7 @@ export default async function HomePage({ params }) {
         <Hero dict={dict} lang={lang} />
         <ServicesPreview dict={dict} lang={lang} dbServices={dbServices} />
         <HowItWorks dict={dict} lang={lang} />
-        <Testimonials dict={dict} lang={lang} />
+        <Testimonials dict={dict} lang={lang} reviews={dbReviews} />
         <CTABanner dict={dict} lang={lang} />
       </main>
       <Footer dict={dict} lang={lang} />
