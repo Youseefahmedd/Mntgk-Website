@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
-import { MessageCircle, Mail, Clock } from 'lucide-react';
+import { MessageCircle, Clock } from 'lucide-react';
 import styles from '@/app/[lang]/pages.module.css';
 
 export default function ContactPageContent({ dict, lang }) {
@@ -109,15 +109,6 @@ export default function ContactPageContent({ dict, lang }) {
                 </div>
               </a>
 
-              <a href="mailto:hello@mntgk.com" className={styles.contactInfoCard}>
-                <div className={styles.contactInfoIcon}>
-                  <Mail size={24} />
-                </div>
-                <div>
-                  <div className={styles.contactInfoLabel}>{dict.contact.info.email}</div>
-                  <div className={styles.contactInfoValue}>{dict.contact.info.emailAddress}</div>
-                </div>
-              </a>
 
               <div className={styles.responseTime}>
                 <Clock size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '8px' }} />
