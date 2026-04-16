@@ -69,6 +69,17 @@ export default function AdminProjects() {
 
   const openNew = () => { resetForm(); setEditing(null); setShowModal(true); };
 
+  const handleImageUpload = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setForm({ ...form, image_url: reader.result });
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
   return (
     <>
       <div className={styles.adminHeader}>
@@ -134,7 +145,19 @@ export default function AdminProjects() {
                   <option value="services">Services</option>
                 </select>
               </div>
-              <div><label>Image URL</label><input value={form.image_url} onChange={(e) => setForm({ ...form, image_url: e.target.value })} /></div>
+              <div>
+                <label>Image</label>
+                <input 
+                  type="file" 
+                  accept="image/*"
+                  onChange={handleImageUpload} 
+                />
+                {form.image_url && (
+                  <div style={{ marginTop: '0.5rem' }}>
+                    <img src={form.image_url} alt="Preview" style={{ width: '100px', height: '100px', objectFit: 'cover', borderRadius: '4px' }} />
+                  </div>
+                )}
+              </div>
               <div><label>Live URL</label><input value={form.live_url} onChange={(e) => setForm({ ...form, live_url: e.target.value })} /></div>
               <div className={styles.checkbox}>
                 <input type="checkbox" checked={form.is_featured} onChange={(e) => setForm({ ...form, is_featured: e.target.checked })} id="is_featured" />
