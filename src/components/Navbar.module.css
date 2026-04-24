@@ -26,6 +26,13 @@
   justify-content: space-between;
 }
 
+.logoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-decoration: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -34,6 +41,14 @@
   font-weight: 800;
   color: var(--white);
   letter-spacing: -0.5px;
+}
+
+.logoTagline {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.7); /* Using semi-transparent white similar to gray */
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-inline-start: 44px;
 }
 
 .logoMark {

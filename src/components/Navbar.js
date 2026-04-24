@@ -41,9 +41,12 @@ export default function Navbar({ dict, lang }) {
     <>
       <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`} id="main-nav">
         <div className={styles.navContainer}>
-          <Link href={`/${lang}`} className={styles.logo}>
-            <span className={styles.logoMark}>M</span>
-            <span>mntgk<span className={styles.logoHighlight}>.</span></span>
+          <Link href={`/${lang}`} className={styles.logoWrapper}>
+            <div className={styles.logo}>
+              <span className={styles.logoMark}>M</span>
+              <span>mntgk<span className={styles.logoHighlight}>.</span></span>
+            </div>
+            {dict.nav.tagline && <span className={styles.logoTagline}>{dict.nav.tagline}</span>}
           </Link>
 
           <div className={styles.navLinks}>
