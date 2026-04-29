@@ -11,6 +11,8 @@ export async function generateMetadata({ params }) {
   return {
     title: dict.meta.title,
     description: dict.meta.description,
+    keywords: dict.meta.keywords,
+    robots: 'index, follow',
     icons: { icon: '/favicon.ico' },
     openGraph: {
       title: dict.meta.title,
