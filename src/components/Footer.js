@@ -16,8 +16,7 @@ export default function Footer({ dict, lang }) {
         <div className={styles.footerGrid}>
           <div className={styles.footerBrand}>
             <Link href={`/${lang}`} className={styles.logo}>
-              <span className={styles.logoMark}>M</span>
-              <span>mntgk<span className={styles.logoHighlight}>.</span></span>
+              <img src="/logo.png" alt="Mntgk Logo" className={styles.logoImage} />
             </Link>
             <p className={styles.footerDesc}>{dict.footer.description}</p>
 
