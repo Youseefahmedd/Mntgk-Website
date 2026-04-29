@@ -59,9 +59,9 @@ export default function AdminLayout({ children, params }) {
       <aside className={styles.sidebar}>
         <div className={styles.sidebarHeader}>
           <div className={styles.sidebarLogo}>
-            <span className={styles.sidebarLogoMark}>M</span>
+            <span className={styles.sidebarLogoMark}>H</span>
             <div>
-              <div>mntgk</div>
+              <div>Hudoorak</div>
               <div className={styles.sidebarLabel}>Admin Panel</div>
             </div>
           </div>

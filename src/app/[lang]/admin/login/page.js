@@ -40,8 +40,8 @@ export default function AdminLogin({ params }) {
     <div className={styles.loginPage}>
       <div className={styles.loginCard}>
         <div className={styles.loginLogo}>
-          <span className={styles.sidebarLogoMark}>M</span>
-          mntgk
+          <span className={styles.sidebarLogoMark}>H</span>
+          Hudoorak
         </div>
         <form className={styles.loginForm} onSubmit={handleSubmit}>
           <input

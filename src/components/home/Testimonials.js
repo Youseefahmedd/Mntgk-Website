@@ -6,16 +6,16 @@ import styles from './Testimonials.module.css';
 
 const defaultReviews = [
   {
-    content_en: "Mntgk transformed our restaurant's online presence. We went from invisible to getting new customers every day through Google. Highly recommended!",
-    content_ar: "منتجك حوّل حضور مطعمنا على الإنترنت. انتقلنا من الظل إلى استقبال عملاء جدد كل يوم عبر قوقل. أنصح بهم بشدة!",
+    content_en: "Hudoorak transformed our restaurant's online presence. We went from invisible to getting new customers every day through Google. Highly recommended!",
+    content_ar: "حضورك حوّل حضور مطعمنا على الإنترنت. انتقلنا من الظل إلى استقبال عملاء جدد كل يوم عبر قوقل. أنصح بهم بشدة!",
     client_name: "Ahmed Al-Rashid",
     client_role_en: "Restaurant Owner",
     client_role_ar: "صاحب مطعم",
     rating: 5
   },
   {
-    content_en: "I was worried about the cost and complexity, but Mntgk made everything simple. My salon website was ready in just 5 days!",
-    content_ar: "كنت قلقة من التكلفة والتعقيد، لكن منتجك جعل كل شيء بسيطاً. موقع صالوني كان جاهزاً في 5 أيام فقط!",
+    content_en: "I was worried about the cost and complexity, but Hudoorak made everything simple. My salon website was ready in just 5 days!",
+    content_ar: "كنت قلقة من التكلفة والتعقيد، لكن حضورك جعل كل شيء بسيطاً. موقع صالوني كان جاهزاً في 5 أيام فقط!",
     client_name: "Sara Mohammed",
     client_role_en: "Salon Owner",
     client_role_ar: "صاحبة صالون",

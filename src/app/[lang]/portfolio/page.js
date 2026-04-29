@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
   return {
-    title: `${dict.nav.portfolio} — Mntgk`,
+    title: `${dict.nav.portfolio} — Hudoorak`,
     description: dict.portfolio.subtitle,
   };
 }

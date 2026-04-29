@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Mntgk | Building Websites & E-Commerce Store Development",
-    "description": "Mntgk offers professional digital services including building websites, E-commerce store development, and reliable website management for small businesses.",
+    "title": "Hudoorak | Building Websites & E-Commerce Store Development",
+    "description": "Hudoorak offers professional digital services including building websites, E-commerce store development, and reliable website management for small businesses.",
     "keywords": "Building websites, website management, E-commerce store development, digital services, web design, small business"
   },
   "nav": {
@@ -12,7 +12,7 @@
     "contact": "Contact",
     "getStarted": "Get Started",
     "admin": "Admin",
-    "tagline": "From local to global"
+    "tagline": "From Local to Global"
   },
   "hero": {
     "badge": "🚀 Your Digital Journey Starts Here",
@@ -116,9 +116,9 @@
     "whatsapp": "Chat on WhatsApp"
   },
   "about": {
-    "sectionTag": "About Mntgk",
+    "sectionTag": "About Hudoorak",
     "title": "We Exist to Help Small Businesses Succeed Online",
-    "story": "We started Mntgk because we saw too many great small businesses missing out on customers simply because they had no online presence. In today's world, if you're not online, you're invisible.",
+    "story": "We started Hudoorak because we saw too many great small businesses missing out on customers simply because they had no online presence. In today's world, if you're not online, you're invisible.",
     "storyP2": "Our mission is simple: make it fast, easy, and affordable for any business to get a professional digital presence. No complicated tech, no huge budgets, no waiting months.",
     "mission": "Our Mission",
     "missionText": "To empower every small business with a professional digital presence that drives real results.",
@@ -167,7 +167,7 @@
       "whatsapp": "WhatsApp",
       "whatsappNumber": "+966535355628",
       "email": "Email",
-      "emailAddress": "hello@mntgk.com",
+      "emailAddress": "hello@hudoorak.com",
       "response": "We typically respond within 2 hours"
     }
   },
