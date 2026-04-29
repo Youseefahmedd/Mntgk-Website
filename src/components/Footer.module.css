@@ -28,6 +28,10 @@
   display: block;
 }
 
+.logoHighlight {
+  color: var(--primary);
+}
+
 .footerDesc {
   color: var(--gray);
   font-size: 0.95rem;

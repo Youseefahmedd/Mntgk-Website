@@ -58,6 +58,10 @@
   display: block;
 }
 
+.logoHighlight {
+  color: var(--primary);
+}
+
 .navLinks {
   display: flex;
   align-items: center;
