@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
   return {
-    title: `${dict.nav.about} — Hudoorak`,
+    title: `${dict.nav.about} — ${lang === 'ar' ? 'حضورك' : 'Hudoorak'}`,
     description: dict.about.missionText,
   };
 }

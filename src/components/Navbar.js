@@ -43,7 +43,8 @@ export default function Navbar({ dict, lang }) {
         <div className={styles.navContainer}>
           <Link href={`/${lang}`} className={styles.logoWrapper}>
             <div className={styles.logo}>
-              <span>Hudoorak<span className={styles.logoHighlight}>.</span></span>
+              <img src="/logo.png" alt="Hudoorak Logo" className={styles.logoImage} />
+              <span>{lang === 'ar' ? 'حضورك' : 'Hudoorak'}<span className={styles.logoHighlight}>.</span></span>
             </div>
             {dict.nav.tagline && <span className={styles.logoTagline}>{dict.nav.tagline}</span>}
           </Link>

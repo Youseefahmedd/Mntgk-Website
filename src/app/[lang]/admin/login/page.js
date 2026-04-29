@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useParams } from 'next/navigation';
 import styles from '../admin.module.css';
 
 export default function AdminLogin({ params }) {
@@ -9,6 +9,8 @@ export default function AdminLogin({ params }) {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const paramsHook = useParams();
+  const lang = paramsHook?.lang || 'en';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -41,7 +43,7 @@ export default function AdminLogin({ params }) {
       <div className={styles.loginCard}>
         <div className={styles.loginLogo}>
           <span className={styles.sidebarLogoMark}>H</span>
-          Hudoorak
+          {lang === 'ar' ? 'حضورك' : 'Hudoorak'}
         </div>
         <form className={styles.loginForm} onSubmit={handleSubmit}>
           <input

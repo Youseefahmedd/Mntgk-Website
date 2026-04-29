@@ -61,7 +61,7 @@ export default function AdminLayout({ children, params }) {
           <div className={styles.sidebarLogo}>
             <span className={styles.sidebarLogoMark}>H</span>
             <div>
-              <div>Hudoorak</div>
+              <div>{lang === 'ar' ? 'حضورك' : 'Hudoorak'}</div>
               <div className={styles.sidebarLabel}>Admin Panel</div>
             </div>
           </div>

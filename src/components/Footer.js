@@ -16,7 +16,8 @@ export default function Footer({ dict, lang }) {
         <div className={styles.footerGrid}>
           <div className={styles.footerBrand}>
             <Link href={`/${lang}`} className={styles.logo}>
-              <span>Hudoorak<span className={styles.logoHighlight}>.</span></span>
+              <img src="/logo.png" alt="Hudoorak Logo" className={styles.logoImage} />
+              <span>{lang === 'ar' ? 'حضورك' : 'Hudoorak'}<span className={styles.logoHighlight}>.</span></span>
             </Link>
             <p className={styles.footerDesc}>{dict.footer.description}</p>
 
@@ -45,7 +46,7 @@ export default function Footer({ dict, lang }) {
         </div>
 
         <div className={styles.footerBottom}>
-          <p className={styles.footerCopy}>© {new Date().getFullYear()} Hudoorak. {dict.footer.rights}</p>
+          <p className={styles.footerCopy}>© {new Date().getFullYear()} {lang === 'ar' ? 'حضورك' : 'Hudoorak'}. {dict.footer.rights}</p>
           <p className={styles.footerMade}>{dict.footer.madeWith}</p>
         </div>
       </div>
