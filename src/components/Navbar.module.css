@@ -41,6 +41,7 @@
   font-weight: 800;
   color: var(--white);
   letter-spacing: -0.5px;
+  white-space: nowrap;
 }
 
 .logoTagline {
@@ -194,6 +195,20 @@
 }
 
 @media (max-width: 768px) {
+  .logo {
+    font-size: 1.25rem;
+    gap: 6px;
+  }
+
+  .logoImage {
+    height: 36px;
+  }
+
+  .logoTagline {
+    margin-inline-start: 34px;
+    font-size: 0.65rem;
+  }
+
   .navLinks {
     display: none;
   }
